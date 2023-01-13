@@ -1,7 +1,10 @@
-.cards__item{
-  width: min-content;
-  margin: 0 100px 0 0;
+.cards__item {
+  width: 240px;
+  margin: 0 0 0 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.cards__item:not(:nth-child(3n)) {
+  margin-right: 100px;
 }
